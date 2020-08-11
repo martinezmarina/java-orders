@@ -10,7 +10,7 @@ A student that completes this project shows that they can:
 
 ## Introduction
 
-This is a basic database scheme with customers, orders, and sales agents. This Java Spring REST API application will provide the data modeling to support the application. This is part 1 of a 3 part application series.
+This is a basic database scheme with customers, orders, and sales agent. This Java Spring REST API application will provide the data modeling to support the application. This is part 1 of a 3 part application series.
 
 ### Database layout
 
@@ -44,7 +44,7 @@ The table layouts are as follows
   * ORDNUM primary key, not null Long
   * ORDAMOUNT double
   * ADVANCEAMOUNT double
-  * CUSTCODE Long foreign key (one customer to many orders) not null
+  * CUSTCODE Long foreign key (one customers to many orders) not null
   * ORDERDESCRIPTION String
 
 * PAYMENTS
@@ -89,6 +89,6 @@ The database will be available from the H2 Console. Each table will contain the 
   * [ ] Create around 100 new customers
   * [ ] Randomize as much of the data as possible
   * [ ] You can assign all new customers to the same agent
-  * [ ] Randomly assign 0 - 10 orders to each customer
+  * [ ] Randomly assign 0 - 10 orders to each customers
     * [ ] Randomize as much of the data as possible
     * [ ] All orders can be of the same payment type
