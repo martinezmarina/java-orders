@@ -15,8 +15,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 
-@Transactional
-@Component
+//@Transactional
+//@Component
 public class SeedData implements CommandLineRunner {
     /**
      * Connects the customer table to this SeedData method

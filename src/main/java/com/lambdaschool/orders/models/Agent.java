@@ -17,7 +17,7 @@ public class Agent {
     private String agentname;
     private String workingarea;
     private String country;
-    private double comission;
+    private double commission;
     private String phone;
 
 
@@ -32,9 +32,9 @@ public class Agent {
     public Agent() {
     }
 
-    public Agent(String agentname, String country, double comission,  String phone, String workingarea) {
+    public Agent(String agentname, String country, double commission,  String phone, String workingarea) {
         this.agentname = agentname;
-        this.comission = comission;
+        this.commission = commission;
         this.country = country;
         this.phone = phone;
         this.workingarea = workingarea;
@@ -57,11 +57,11 @@ public class Agent {
     }
 
     public double getComission() {
-        return comission;
+        return commission;
     }
 
     public void setComission(double comission) {
-        this.comission = comission;
+        this.commission = comission;
     }
 
     public String getCountry() {
@@ -101,7 +101,7 @@ public class Agent {
         return "Agent{" +
                 "agentcode=" + agentcode +
                 ", agentname='" + agentname + '\'' +
-                ", comission=" + comission +
+                ", commission=" + commission +
                 ", country='" + country + '\'' +
                 ", phone='" + phone + '\'' +
                 ", workingarea='" + workingarea + '\'' +
